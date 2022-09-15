@@ -20,6 +20,14 @@ namespace Example6
             objectTeacher.Lname = "Smith";
             objectTeacher.TeachingSubject = "English";
 
+            Officer objectOfficer = new Officer();
+            objectOfficer.Fname = "Jim";
+            objectOfficer.Lname = "Daniels";
+            objectOfficer.Room = "A102";
+
+            Console.WriteLine("Officer: " + objectOfficer.Fname);
+            Console.WriteLine("Officer: "+objectOfficer.Room);
+
             Console.WriteLine("Student: " + objectStudent.Fname);
             Console.WriteLine("Student: " + objectStudent.Lname);
             Console.WriteLine("Student: " + objectStudent.StudentGroup);
